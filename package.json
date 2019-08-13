@@ -1,0 +1,23 @@
+{
+  "name": "facebook-chatbot",
+  "version": "1.0.0",
+  "description": "hessle view helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zakaroni/facebook-chatbot.git"
+  },
+  "author": "zak sadiq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zakaroni/facebook-chatbot/issues"
+  },
+  "homepage": "https://github.com/zakaroni/facebook-chatbot#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
