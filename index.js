@@ -28,7 +28,7 @@ app.post('/webhook', (req, res) => {
 
 app.get('/webhook', (req, res) => {
 
-  let VERIFY_TOKEN = process.env.VERIFY_TOKEN || "angel";
+  let VERIFY_TOKEN = "angel";
 
   let mode = req.query['hub.mode'];
   let token = req.query['hub.verify_token'];
